@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Matemasie&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --preto: #000000ff;
+    --azul-forte: #14213dff;
+    --laranja: #fca311ff;
+    --cinza: #e5e5e5ff;
+    --branco: #ffffffff;
+    --fonte-titulo: "Matemasie", sans-serif;
+    --fonte-texto: "Grey Qo", cursive;
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--fonte-texto);
+    font-size: 30px;
+}
+
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.cabecalho-img{
+    width: 15%;
+    border-radius: 100%;
+}
+
+.cabecalho-nav--link{
+    font-family: var(--fonte-titulo);
+    text-decoration: none;
+    font-size: 30px;
+    color: var(--preto);
+    margin-right: 36px;
+}
+
+.cabecalho-__link:houver{
+    color: var(--cinza);
+    font-size: 46px;
+    transition: 0,5s;
+}
+
+.principal-capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/fundo.jpg)
+    background-repeat: no-repeat;
+    background-size: cover;
+}
