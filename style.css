@@ -103,3 +103,16 @@ body{
     color: var(--branco);
     transition: 0.5s;
 }
+
+.botao__secundario{
+    background-color: var(--branco);
+    border: 2px solid var(--preto);
+    color: var(--preto)
+}
+
+.botao__secundario:hover{
+    padding: 1.2em;
+    background-color: var(--preto);
+    color: var(--branco);
+    transition: 0.5s;
+}
